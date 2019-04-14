@@ -1,0 +1,20 @@
+{
+  "name": "Apple Daily Paywall Remover",
+  "description": "Remove Apple Daily Paywall",
+  "version": "2.0",
+  "permissions": [
+    "tabs",
+    "*://*.appledaily.com/*"
+  ],
+  "content_scripts": [
+    {
+        "matches": [ "*://*.appledaily.com/*" ],
+        "js": [ "auto_remove.js" ]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Remove Apple Daily Paywall"
+    
+  },
+  "manifest_version": 2
+}
