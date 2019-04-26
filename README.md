@@ -1,12 +1,7 @@
 # Apple Daily Paywall Remover
 ### 繞過[蘋果日報](https://tw.appledaily.com/daily)線上新聞網站的加入會員麻煩!
-程式碼都給你了，大家一起看八卦！
-```javascript
-let paywall = document.querySelector( '.ndPaywall' );
-let article = document.querySelector( '.ndArticle_content > div' );
-paywall.style.display = "none";
-article.style.display = "block";
-```
+[程式碼](https://github.com/RainBoltz/appledaily_paywall_remover/blob/master/appledaily_paywall_remover/auto_remove.js)都給你了，大家一起看八卦！  
+...  
 如果看不懂，或者懶得不斷在console輸入程式碼，沒關係！我們提供**一鍵外掛**！
 ## 安裝方法
 - 開啟Chrome的 **擴充功能** 選項  
