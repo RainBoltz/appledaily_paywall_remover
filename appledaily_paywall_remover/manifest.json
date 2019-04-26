@@ -9,7 +9,7 @@
   "content_scripts": [
     {
         "matches": [ "*://*.appledaily.com/*" ],
-        "js": [ "auto_remove.js" ]
+        "js": [ "jquery-3.4.0.min.js","auto_remove.js" ]
     }
   ],
   "browser_action": {
